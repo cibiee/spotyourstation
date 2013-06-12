@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+  <RelativeLayout
+        android:layout_width="fill_parent"
+    android:layout_height="45dp"
+     
+     android:gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical"
+    android:background="@drawable/navigation">
+        <TextView
+            android:id="@+id/TRAIN_CELL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#acacac"
+            android:text="Spot Your Station"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+             />
+
+        <Button
+            android:id="@+id/btnEditt"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+             android:background="@drawable/back_btn"
+            android:text="Info"
+            android:textColor="#FFFFFF"
+            android:textSize="13dp"
+            android:textStyle="bold"/>
+            
+            
+     
+       
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:src="@drawable/demo_path" />
+            
+            
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >     
+                <TextView
+                    android:id="@+id/destinationTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="7dp"
+                    android:textColor="#ffa800"
+                    android:textSize="19dp" />
+
+                 <Button
+            android:id="@+id/btndestination"
+            android:layout_width="120dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+             android:background="@drawable/add_destination"
+            android:textColor="#FFFFFF"
+             android:text="Set Destination"
+            android:textSize="13dp"
+            android:textStyle="bold"/>
+            
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingTop="1dp" >
+                  
+                   
+                    
+                    
+                    <TextView
+                        android:paddingTop="60dp"
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You have  approximately"
+                        android:textColor="#ffffff"
+                        android:textSize="19dp" />
+
+                    <TextView
+                        android:id="@+id/distanceTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:textColor="#ffa800"
+                        android:textSize="22dp" />
+                    
+                     <ImageView
+                         android:id="@+id/trackView"
+                         android:layout_width="90dp"
+                         android:layout_height="90dp"
+                         android:layout_marginTop="10dp"
+		android:layout_gravity="center_horizontal"
+                         
+                         />
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/imgFb"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/facebook" />
+
+                    <ImageView
+                        android:id="@+id/imgTw"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        
+                        android:src="@drawable/twitter" /> 
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal" >
+
+            <com.google.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="a15183940dcd4a0"
+                ads:loadAdOnCreate="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

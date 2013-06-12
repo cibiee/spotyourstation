@@ -1,0 +1,193 @@
+
+{
+"stations": [{"ID":"1","Code":"ALLP","Name":"Alappuzha","Longitude":"76.322299499999990000","Latitude":"9.483600200000001000" },
+
+{"ID":"2","Code":"AWY","Name":"Aluva","Longitude":"76.3561000000","Latitude":"10.10820686464088088000000" },
+
+{"ID":"3","Code":"AMPA","Name":"Ambalappuzha","Longitude":"76.36360099999980000","Latitude":"9.386481809999999000" },
+
+{ "ID":"4" , "Code":"AFK", "Name":"Angamaly" ,"Longitude":"76.37755468999996","Latitude":"10.1838243"},
+
+{ "ID":"5" , "Code":"BDJ", "Name":"Vadakara","Longitude":"75.587070900000070000","Latitude":"11.593451400000000000" },
+
+{ "ID":"6" , "Code":"CLT", "Name":"Calicut" ,"Longitude":"75.7805","Latitude":"11.2465"},
+
+{ "ID":"7" , "Code":"CAN", "Name":"Cannanore","Longitude":"75.368096899999950000","Latitude":"11.871223200000000000" },
+
+{ "ID":"8" , "Code":"CKI", "Name":"Chalakudi" ,"Longitude":"76.32189","Latitude":"10.30189"},
+
+{ "ID":"9" , "Code":"CGY", "Name":"Changanacheri","Longitude":"76.547197500000040000","Latitude":"9.450680900000000000" },
+
+{ "ID":"10" , "Code":"CHV", "Name":"Charvattur" ,"Longitude":"75.154805999999930000","Latitude":"12.213898800000000000"},
+
+{ "ID":"11" , "Code":"CNGR", "Name":"Chengannur","Longitude":"76.608235899999950000","Latitude":"9.319444899999999000" },
+
+{ "ID":"12" , "Code":"CRY", "Name":"Chirayinkil","Longitude":"76.785811999999960000","Latitude":"8.658819300000000000" },
+
+{ "ID":"13" , "Code":"ERS", "Name":"Ernakulam Junction","Longitude":"76.291173999999960000","Latitude":"9.9701016999999990" },
+ 
+{ "ID":"14" , "Code":"ERN", "Name":"Ernakulam Town" ,"Longitude":"76.286625","Latitude":"9.99208"},
+
+{ "ID":"15" , "Code":"GUV", "Name":"Guruvayur","Longitude":"76.045627599999990000","Latitude":"10.597126100000000000" },
+
+{ "ID":"16" , "Code":"HAD", "Name":"Haripad" ,"Longitude":"76.462544600000000000","Latitude":"9.280273800000000000"}, 
+
+{ "ID":"17" , "Code":"IJK", "Name":"Irinjalakuda" ,"Longitude":"76.28149","Latitude":"10.34"},
+
+{ "ID":"18" , "Code":"KN", "Name":"Kadalundi","Longitude":"75.828390","Latitude":"11.134187" },
+
+{ "ID":"19" , "Code":"KZE", "Name":"Kanhangad" ,"Longitude":"75.084931900000020000","Latitude":"12.319923700000000000"}, 
+
+
+{ "ID":"21" , "Code":"KYJ", "Name":"Kayamkulam" ,"Longitude":"76.512246","Latitude":"9.182594"},
+
+{ "ID":"22" , "Code":"KTYM", "Name":"Kottayam" ,"Longitude":"76.532475299999990000","Latitude":"9.594508700000000000"},
+
+{ "ID":"23" , "Code":"QLD", "Name":"Koyilandy" ,"Longitude":"75.693805000000000000","Latitude":"11.446400700000000000"},
+
+{ "ID":"24" , "Code":"KTU", "Name":"Kuttippuram","Longitude":"76.033479199999990000","Latitude":"10.845802100000000000" },
+
+{ "ID":"25" , "Code":"MJS", "Name":"Manjeshwar" ,"Longitude":"74.888128600000070000","Latitude":"12.724790000000000000"},
+
+{ "ID":"26" , "Code":"MVLK", "Name":"Mavelikara","Longitude":"76.545752600000010000","Latitude":"9.239537200000000000" },
+
+{ "ID":"27" , "Code":"NYY", "Name":"Neyyattinkara","Longitude":"77.081560000000020000","Latitude":"8.410305699999999000" },
+
+{ "ID":"28" , "Code":"NLE", "Name":"Nileshwar" ,"Longitude":"75.135763379990030000","Latitude":"12.256699700000000000"},
+
+{ "ID":"29" , "Code":"PGT", "Name":"Palghat","Longitude":"76.640549200000010000","Latitude":"10.801451000000000000" },
+
+{ "ID":"30" , "Code":"PVU", "Name":"Paravur" ,"Longitude":"76.66901959999996","Latitude":"8.8152201"},
+
+
+{ "ID":"31" , "Code":"PGI", "Name":"Parpanangadi","Longitude":"75.861062","Latitude":"11.045663" },
+
+{ "ID":"32" , "Code":"PTB", "Name":"Pattambi" ,"Longitude":"76.181543700000020000","Latitude":"10.801954900000000000"},
+
+{ "ID":"33" , "Code":"PAZ", "Name":"Payangadi","Longitude":"75.258205900000010000","Latitude":"12.022093500000000000" },
+
+{ "ID":"34" , "Code":"PAY", "Name":"Payyanur" ,"Longitude":"75.194901","Latitude":"12.091499"},
+
+{ "ID":"35" , "Code":"PUK", "Name":"Pudukad" ,"Longitude":"76.260974400000010000","Latitude":"10.420762000000000000"},
+
+{ "ID":"36" , "Code":"PNQ", "Name":"Punkunnam","Longitude":"76.208936999999990000","Latitude":"10.534668200000000000" },
+
+{ "ID":"37", "Code":"QLN", "Name":"Quilon Junction(Kollam)","Longitude":"76.595227", "Latitude":"8.886181" },
+
+{ "ID":"38" , "Code":"SRTL", "Name":"Shertalai","Longitude":"76.325465899999930000","Latitude":"9.691129199999999000" },
+
+{ "ID":"39" , "Code":"SRR", "Name":"Shoranur" ,"Longitude":"76.271456","Latitude":"10.759281"},
+
+{ "ID":"40" , "Code":"TA", "Name":"Tanur" ,"Longitude":"75.881512","Latitude":"10.978018"},
+
+{ "ID":"41" , "Code":"TLY", "Name":"Thalassery(Tellicherry)" ,"Longitude":"75.492909800000000000","Latitude":"11.753359100000000000"},
+
+{ "ID":"42" , "Code":"TVC", "Name":"Trivandrum Central","Longitude":"76.951703299999960000","Latitude":"8.486339100000000000"},
+
+{ "ID":"43" , "Code":"TVP", "Name":"Thiruvananthapuram Pettah" ,"Longitude":"76.931806300000060000","Latitude":"8.494807900000000000"},
+
+{ "ID":"45" , "Code":"TRVL", "Name":"Tiruvalla" ,"Longitude":"76.579706799999940000","Latitude":"9.391562600000000000"},
+
+{ "ID":"44" , "Code":"TIR", "Name":"Tirur" ,"Longitude":"75.921691199999940000","Latitude":"10.917790600000000000"},
+
+{ "ID":"46" , "Code":"TCR", "Name":"Trichur" ,"Longitude":"76.207714600000030000","Latitude":"10.514493300000000000"},
+
+{ "ID":"47" , "Code":"TKQ", "Name":"Trikarpur" ,"Longitude":"75.175858","Latitude":"12.141769"},
+
+{ "ID":"48" , "Code":"TRTR", "Name":"Tripunittura" ,"Longitude":"76.352809","Latitude":"9.952937"},
+
+{ "ID":"49" , "Code":"VAK", "Name":"Varkala" ,"Longitude":"76.723100299999940000","Latitude":"8.741051600000000000"},
+
+{ "ID":"50" , "Code":"WKI", "Name":"Wadakanchery" ,"Longitude":"76.237628","Latitude":"10.649273"},
+
+{ "ID":"51" , "Code":"KCVL", "Name":"Trivandrum Kochuveli","Longitude":"76.897136499999990000","Latitude":"8.509819000000000000" },
+
+{ "ID":"52" , "Code":"PGTN", "Name":"Palakkad Town" ,"Longitude":"76.640549200000010000","Latitude":"10.801451000000000000"},
+
+{ "ID":"53" , "Code":"DINR", "Name":"Divine nagar","Longitude":"76.336933199999970000","Latitude":"10.285819200000000000" },
+
+{ "ID":"54" , "Code":"ELM", "Name":"Elimala" ,"Longitude":"75.230727099999970000","Latitude":"12.068300200000000000"},
+
+{ "ID":"55" , "Code":"ETM", "Name":"Ettumanur" ,"Longitude":"76.54538","Latitude":"9.676558"},
+
+{ "ID":"56" , "Code":"KMQ", "Name":"Kumbla","Longitude":"74.943436600000040000","Latitude":"12.590240500000000000" },
+
+{ "ID":"57" , "Code":"MAKM", "Name":"Mararikulam" ,"Longitude":"76.317735","Latitude":"9.597656"},
+
+{ "ID":"58" , "Code":"MQO", "Name":"Munroturuttu()" ,"Longitude":"76.610568899999980000","Latitude":"8.997365199999999000"},
+
+{ "ID":"59" , "Code":"MQU", "Name":"Murukkampuzha" ,"Longitude":"76.830149899999920000","Latitude":"8.613662900000000000"},
+
+{ "ID":"60" , "Code":"OTP", "Name":"Ottappalam" ,"Longitude":"76.377717599999980000","Latitude":"10.769620300000000000"},
+
+{ "ID":"61" , "Code":"PASA", "Name":"Parashshala" ,"Longitude":"77.165635500000010000","Latitude":"8.339788700000000000"},
+
+{ "ID":"62" , "Code":"PYOL", "Name":"Payyoli" ,"Longitude":"75.61822060","Latitude":"11.51716890"},
+
+{ "ID":"63" , "Code":"TUA", "Name":"Tirunnavaya" ,"Longitude":"75.985736500000030000","Latitude":"10.874970900000000000"},
+
+{ "ID":"64" , "Code":"UAA", "Name":"Uppala" ,"Longitude":"74.906581899999990000","Latitude":"12.669909500000000000"},
+
+{ "ID":"65" , "Code":"VAPM", "Name":"Valapattanam" ,"Longitude":"75.346245","Latitude":"11.927286"},
+
+{ "ID":"66" , "Code":"KQK", "Name":"Kottikulam" ,"Longitude":"75.023961","Latitude":"12.423574"},
+
+{ "ID":"67" , "Code":"VARD", "Name":"Vaikam Road" ,"Longitude":"76.474360","Latitude":"9.777704"},
+
+{ "ID":"68" , "Code":"DAVM", "Name":"Dhanuvachapuram","Longitude":"77.124914","Latitude":"8.379089" },
+
+{ "ID":"69" , "Code":"TUVR", "Name":"Turavur","Longitude":"76.310447299999960000","Latitude":"9.773354500000000000" },
+
+{ "ID":"70" , "Code":"MNTT", "Name":"Mulanturutti","Longitude":"76.390722699999970000","Latitude":"9.897863100000000000" },
+
+{ "ID":"71" , "Code":"KVU", "Name":"Kadakavur" ,"Longitude":"76.766925200000060000","Latitude":"8.679376300000000000"},
+
+{ "ID":"72" , "Code":"KZK", "Name":"Kazhakuttam","Longitude":"76.872548","Latitude":"8.556384" },
+
+{ "ID":"73" , "Code":"VLI", "Name":"Vallikunnu" ,"Longitude":"75.852055","Latitude":"11.091025"},
+
+{ "ID":"74" , "Code":"KPY", "Name":"Karunagapalli" ,"Longitude":"76.544126699999990000","Latitude":"9.065575700000000000"},
+
+{ "ID":"75" , "Code":"PVRD", "Name":"Piravam Road" ,"Longitude":"76.455284399999980000","Latitude":"9.829343699999999000"},
+
+{ "ID":"76" , "Code":"IPL", "Name":"Edapalli" ,"Longitude":"76.298413100000060000","Latitude":"10.034560200000000000"},
+
+{ "ID":"77" , "Code":"KPQ", "Name":"Kannapuram" ,"Longitude":"75.314273","Latitude":"11.984002"},
+
+{ "ID":"78" , "Code":"STKT", "Name":"Sasthankotta" ,"Longitude":"76.599078","Latitude":"9.032096 "},
+
+{ "ID":"79" , "Code":"FK", "Name":"Ferok","Longitude":"75.830244499999940000","Latitude":"11.174932200000000000" },
+
+{ "ID":"80" , "Code":"MYY", "Name":"Mayyanad" ,"Longitude":"76.647678700000030000","Latitude":"8.838147900000000000"},
+
+{ "ID":"81" , "Code":"BFR", "Name":"Bekal Fort","Longitude":"75.043180899999920000","Latitude":"12.385985600000000000"},
+
+{ "ID":"82" , "Code":"NIL", "Name":"Nilambur","Longitude":"76.254515599999990000","Latitude":"11.278827200000000000"},
+
+{ "ID":"83" , "Code":"OLR", "Name":"Ollur","Longitude":"76.237317","Latitude":"10.473514"},
+
+{ "ID":"84" , "Code":"KRPP", "Name":"Kuruppanthara","Longitude":"76.510913","Latitude":"9.734854"},
+
+{ "ID":"84" , "Code":"VNB", "Name":"Vaniyambalam","Longitude":"76.260138","Latitude":"11.18839"},
+
+{ "ID":"85" , "Code":"KDTY", "Name":"Kaduthuruthy","Longitude":"76.492342","Latitude":"10.787754"},
+
+{ "ID":"86" , "Code":"MLTR", "Name":"Melattur","Longitude":"76.283197","Latitude":"11.12051"},
+
+{ "ID":"87" , "Code":"TUV", "Name":"Tuvvur","Longitude":"76.272937","Latitude":"11.065212"},
+
+{ "ID":"88" , "Code":"PKQ", "Name":"Pattikad","Longitude":"76.207934","Latitude":"10.981368"},
+
+{ "ID":"89" , "Code":"CQA", "Name":"Cherukara","Longitude":"76.227629","Latitude":"10.926297"},
+
+{ "ID":"90" , "Code":"KZC", "Name":"Kullukkalur","Longitude":"76.239070","Latitude":"10.868116"},
+
+{ "ID":"91" , "Code":"MGK", "Name":"Mulankunnathukavu","Longitude":"76.207628","Latitude":"10.595769"}
+
+]
+}
+
+
+
+
+

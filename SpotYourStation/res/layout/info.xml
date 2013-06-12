@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/app_bg">
+    
+  <RelativeLayout
+        android:layout_width="fill_parent"
+    android:layout_height="45dp"
+     
+     android:gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical"
+    android:background="@drawable/navigation">
+        <TextView
+            android:id="@+id/TRAIN_CELL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#acacac"
+            android:text="Spot Your Station"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+             />
+
+        <Button
+            android:id="@+id/btnEditt"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+             android:background="@drawable/back_btn"
+            android:text="Feed Back"
+            android:textColor="#FFFFFF"
+            android:textSize="13dp"
+            android:textStyle="bold"/>
+            
+            
+     
+       
+    </RelativeLayout>
+    
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       
+        android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" 
+        android:layout_height="0dp" 
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text=" How To Use"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView            
+            android:id="@+id/txt1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text=" No need to ask your fellow passenger or getting tensed of missing the station. You can find the distance to more than 90+ stations in Kerala.
+Select your destination station from the list and you will get the approximate kilometers from your current location.                                                                  
+Working of  Spot Your Station is completely dependent on the GPS."
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_marginTop="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" Concept and development by      Ciby K Jose  Sukesh Das  Pons C P  From Bridge Global IT Staffing  "
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+       
+    </LinearLayout>
+	 <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a15183940dcd4a0"
+        ads:loadAdOnCreate="true" />
+        
+        </LinearLayout>
+        
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_bg"
+    android:gravity="center_horizontal|top" >
+
+    <!-- HEADER -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+    android:layout_height="45dp"
+     
+     android:gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical"
+    android:background="@drawable/navigation">
+        <TextView
+            android:id="@+id/TRAIN_CELL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#acacac"
+            android:text="Spot Your Station"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+             />
+
+       
+       
+    </RelativeLayout>
+    
+
+    <LinearLayout
+        android:id="@+id/imglady"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="35dp" >
+
+        <TextView
+            android:id="@+id/txtthankyou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:text="Please help Us"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtheadtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="left"
+             android:textSize="18sp"
+            android:textStyle="bold" 
+            android:paddingTop="8dp"
+            android:text="We are commited to provide you with better application experience .Please provide us your valuable feedback." >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtfeedcomment"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/second_btn"
+            android:text="Submit"
+            android:textColor="#ffffff"
+             android:paddingTop="10dp" 
+            android:textSize="18dp" />
+    </LinearLayout>
+<com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a15183940dcd4a0"
+        ads:loadAdOnCreate="true" />
+    
+</RelativeLayout>
